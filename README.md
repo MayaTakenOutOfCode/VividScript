@@ -10,9 +10,13 @@
             Functions:
           </tr>
           <td>
-            <p>When you want to define the function here you use:<br> fun set [nameOfFunction](){
+            <p>When you want to define the function here you use:<br> fun set [nameOfFunction](){<br>
               **here goes your code**
-            }</p>
+            <br>}</p><br><br>
+              <p>If you wish to define a function in class you can use scope keywords, in normal languages you would need to use "public", "private" or "protected" here you just write:
+              <br> for private case: <br>
+                  relative fun set [name](){<br>***code goes here***<br>}
+              </p>
           </td>
         </table>
       </ul>
