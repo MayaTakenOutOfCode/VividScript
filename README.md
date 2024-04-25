@@ -7,9 +7,8 @@
       <ul>
         <table>
           <tr>
-            <li>Functions:</li>
-          </tr>
-          <td>
+            <li>Functions:</li
+            <td>
             <p>When you want to define the function here you use:<br> fun set [nameOfFunction](){<br>
               **here goes your code**
             <br>}</p><br><br>
@@ -22,8 +21,9 @@
                   prot fun set [name](){<br>**code goes here**<br>}
               </p>
           </td>
+          </tr>
           <tr>
-            <li>Loops:</li>
+            <li>Loops: <br></li>
             <td>
               <p>In case u need to use loops we worked with good syntax so we just simplified it: <br><br> 
                 If you want to use for loop:
