@@ -1,6 +1,6 @@
 # Welcome to the future x3 jk just a simpler language VividScript!
 
-## Documentation:
+### Documentation:
 <ol>
   <li>
     Syntax:
