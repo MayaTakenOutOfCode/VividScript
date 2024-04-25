@@ -10,7 +10,7 @@
             Functions:
           </tr>
           <td>
-            <p>When you want to define the function here you use: fun set [nameOfFunction](){
+            <p>When you want to define the function here you use:<br> fun set [nameOfFunction](){
               **here goes your code**
             }</p>
           </td>
