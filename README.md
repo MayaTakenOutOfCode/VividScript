@@ -14,11 +14,11 @@
               **here goes your code**
             <br>}</p><br><br>
               <p>If you wish to define a function in class you can use scope keywords, in normal languages you would need to use "public", "private" or "protected" here you just write:
-              <br> for private case: <br>
+              <br><br> for private case: <br><br>
                   relative fun set [name](){<br>***code goes here***<br>} <br>
-                for public case: <br>
+                for public case: <br><br>
                   pub fun set [name](){<br>**code goes here**<br>}<br>
-                for protected case: <br>
+                for protected case: <br><br>
                   prot fun set [name](){<br>**code goes here**<br>}
               </p>
           </td>
