@@ -13,7 +13,7 @@ namespace VividScript
         public ushort eCrlc;
         public ushort eCparhdr;
         public ushort eMinalloc;
-        public ushort eMaxalloc;    
+        public ushort eMaxalloc;
         public ushort eSs;
         public ushort eSp;
         public ushort ecSum;
@@ -26,6 +26,30 @@ namespace VividScript
         public ushort eOeminfo;
         public fixed ushort eRes2[10];
         public uint eLfanew;
+        #endregion
+        #region DOS stub
+        public fixed Byte unknown[14],
+            msg[38],
+            unknown_0[5],
+            unknown_empty[7];
+
+        #endregion
+        #region PEHeader
+        public uint signature;
+        public Machine machine;
+        public ushort numberOfSections;
+        public uint timeDateStamp, pointerToSymbolTable, numberOfSymbols;
+        public ushort sizeOfOptionalHeader, characteristics;
+        #endregion
+        #region PE optional Header
+        public ushort magic;
+        public Byte majorLinkerVersion, minorLinkerVersion;
+        public uint sizeOfCode, sizeOfInitializedData, sizeOfUnitializedData, adressOfEntryPoint, baseOfCode, baseOfData, imageBase, sectionAligment, fileAligment;
+
+        public ushort majorOperatingSystemVersion, minorOperatingSystemVersion, majorImageVersion, minorImageVersion, majorSubsytemVersion, minorSubsytemVersion;   
+        public uint win32VersionValue, sizeOfImage, sizeOfHeaders, checkSum;
+        public ushort subSytem, dllCharacteristics;
+        public uint sizeOfStackReserve, sizeOfStackCommit, sizeOfHeapReserve,sizeOfHeapCommit, loaderFlags, numberOfRvaAndSizes;
         #endregion
     }
 }
