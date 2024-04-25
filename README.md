@@ -27,7 +27,7 @@
             <td>
               <p>In case u need to use loops we worked with good syntax so we just simplified it: <br><br> 
                 If you want to use for loop:
-                  <br><br> loop scope of for(incrementerVar, logic, incrementerVar++ or incrementerVar--){<br>**code**<br>}<br><br> or just write lsoof(increm, logic, increm++ or increm--){<br> **code** <br>}<br> <br>
+                  <br><br> loop scope of for(incrementerVar, logic, incrementerVar++ or incrementerVar--){<br>**code**<br>}<br><br> or just write: lsoof(increm, logic, increm++ or increm--){<br> **code** <br>}<br> <br>
                 If you want to use while loop:
                   <br><br> loop scope of while (logic){<br>**code**<br>}<br><br> or just use: lsoow(logic) => {<br> **code** <br>}
               </p>
