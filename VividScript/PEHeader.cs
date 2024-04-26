@@ -51,5 +51,22 @@ namespace VividScript
         public ushort subSytem, dllCharacteristics;
         public uint sizeOfStackReserve, sizeOfStackCommit, sizeOfHeapReserve,sizeOfHeapCommit, loaderFlags, numberOfRvaAndSizes;
         #endregion
+        #region Data Directories
+
+        public fixed uint dir[32];
+
+
+        #endregion
+        #region PE code section
+        public fixed Byte name[8];
+        public uint virtualSize, virtualAdress, sizeOfRawData, pointerToRawData, pointerToRelocations, pointerToLineNumbers;
+        public ushort numberOfRelocations, numberOfLineNumbers;
+        public uint characteristics_0;
+
+        #endregion
+        #region Import Table
+        public fixed ulong importTable[32];
+        #endregion
     }
+
 }
