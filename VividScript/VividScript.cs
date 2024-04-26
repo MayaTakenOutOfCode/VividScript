@@ -1,13 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 
 namespace VividScript
 {
     internal class Program
     {
-
+        public static void Main(string[] args)
+        {
+            Console.WriteLine(Marshal.SizeOf(typeof(PEHeader)).ToString());
+            halt: goto halt;
+        }
     }
 }
